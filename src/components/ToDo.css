@@ -1,0 +1,30 @@
+.todo{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    font-size: 25px;
+    cursor: pointer;
+    background: none;
+}
+
+.editicon{
+    color: blue;
+}
+
+.deleteicon{
+    color: red;
+
+}
