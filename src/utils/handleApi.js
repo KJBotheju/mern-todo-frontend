@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:5000';
+const baseUrl = 'https://mern-todo-backend-f2iv.onrender.com';
 
 const getTodos = (setToDo) => {
     axios.get(baseUrl).then(({data}) => {
